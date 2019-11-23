@@ -20,6 +20,7 @@ class ViewController: UIViewController {
             flipCountLable.text = "Flips: \(flipCount)"
         }
     }
+    //testing git changes
     
     var orientationLandscape = false {
         didSet {
