@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+
     
     lazy var game: MemoryModel = MemoryModel(numberOfPairsOfCards: cardButtons.count/2)
     
@@ -98,7 +99,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         toggleButtons()
         updateViewFromModel()
     }
